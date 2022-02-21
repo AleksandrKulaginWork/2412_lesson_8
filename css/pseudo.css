@@ -1,0 +1,164 @@
+
+.link1:hover{
+    font-size: 16px;
+    padding: 14.5px 13px;
+}
+
+.link1:visited{
+    color: black;
+}
+
+.link2:hover{
+    font-size: 16px;
+    padding: 14.5px 11.8px;
+}
+
+.link2:visited{
+    color: black;
+}
+
+.link3:hover{
+    font-size: 16px;
+    padding: 14.5px 13px;
+}
+
+.link3:visited{
+    color: black;
+}
+
+.link4:hover{
+    font-size: 16px;
+    padding: 14.5px 13.5px;
+}
+
+.link4:visited{
+    color: black;
+}
+
+.link5:hover{
+    font-size: 16px;
+    padding: 14.5px 15.5px;
+}
+
+.link5:visited{
+    color: black;
+}
+
+.link6:hover{
+    font-size: 16px;
+    padding: 14.5px 15px;
+}
+
+.link6:visited{
+    color: black;
+}
+
+.link7:hover{
+    font-size: 16px;
+    padding: 14.5px 16px;
+}
+
+.link7:visited{
+    color: black;
+}
+
+.link8:hover{
+    font-size: 16px;
+    padding: 14.5px 13.2px;
+}
+
+.link8:visited{
+    color: black;
+}
+
+.link9:hover{
+    font-size: 16px;
+    padding: 14.5px 18.5px;
+}
+
+.link9:visited{
+    color: black;
+}
+
+.text:hover{
+    background-color: rgba(211, 207, 207, 0.445);
+    border-radius: 10px;
+}
+
+.text3:hover{
+    background-color: rgba(211, 207, 207, 0.445);
+    border-radius: 10px;
+}
+
+.text4:hover{
+    background-color: rgba(211, 207, 207, 0.445);
+    border-radius: 10px;
+}
+
+.sublist:hover{
+    font-weight: 700;
+}
+
+.sublist2:hover{
+    font-weight: 700;
+}
+
+.sublist3:hover{
+    background-color: rgb(255, 240, 221);
+    border-radius: 10px;
+    box-shadow: 5px 10px 20px 5px rgb(104, 103, 102);;
+}
+
+.link-youtube:hover{
+    font-size: 16px;
+    padding: 14.2px 14px;
+    box-shadow: 7px 7px 7px 0px rgb(54, 54, 53);
+}
+
+.link-youtube:active{
+    margin: 4px 0 0 0;
+    box-shadow: inset 3px 3px 7px 0px rgb(54, 54, 53);
+}
+
+.block4 p:nth-child(odd){
+    background: rgb(200, 241, 87);
+    border-radius: 10px;
+}
+
+.block3 p:nth-child(2),
+.block3 p:nth-child(3),
+.block3 p:nth-child(4),
+.block3 p:nth-child(7){
+    font-weight: 700;
+}
+
+.list li::before{
+    content: "";
+    width: 30px;
+	height: 30px;
+    margin: 0px 20px 0px -50px;
+    display: inline-block;
+    background: url("../img/Galocika.png") 0 0 / 30px no-repeat;
+}
+
+.list-scroll li::before{
+    content: "";
+    display: inline-block;
+    background: url("../img/Galocika_2.jpg") 0 0 / 20px no-repeat;
+    width: 20px;
+    height: 20px;
+    margin: 0px 10px 0px -41px;
+}
+
+.title1::after{
+    content: "";
+    display: block;
+    background-color: black;
+    height: 3px;
+    width: 300px;
+    margin: 0 auto;
+    border-radius: 2px;
+    background: linear-gradient(163deg, rgba(31,220,5,1) 10%, 
+    rgba(218,210,37,1) 44%, rgba(222,164,110,1) 67%, rgba(248,1,255,1) 92%);
+}
+
